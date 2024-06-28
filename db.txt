@@ -1,0 +1,9 @@
+drop table if exists customer;
+create table customer(
+id int(10) primary key auto_increment,
+name varchar(50),
+contact text
+);
+
+insert into customer(name,contact)values('akram','01761435967');
+insert into customer(name,contact)values('adnan','01633962936');
